@@ -7,6 +7,8 @@ WAGE_PER_HOUR = 20
 
 val = random.randint(0, 2)
 
+   # Use Case 4 Switch Case done using if...elif...else *-------------*****------------------------------*
+
 if val == PRESENT:
     print("Employee is present.")
     print("Employee wage for day Rs.", WORKING_HOURS * WAGE_PER_HOUR)  # Use Case 2 Daily Employee Wage.
